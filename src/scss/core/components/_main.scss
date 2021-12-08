@@ -253,6 +253,8 @@ main {
 .flexInfoHolder {
   display: flex;
   margin-top: 50px;
+  flex-flow: row-reverse;  
+
   @include breakpoint-down(medium){
     display: block;
   }
@@ -274,10 +276,15 @@ main {
 }
 
 
-.flexInfoHolder:nth-child(2n+1) {
-  flex-flow: row-reverse;  
+// .flexInfoHolder:nth-child(2n+1) {
+//   flex-flow: row-reverse;  
+// }
+
+.flexInfoHolder.flexNormal {
+  flex-flow: row !important;  
 }
 
+// .flexInfoHolder
 
 
 
