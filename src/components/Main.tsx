@@ -5,32 +5,32 @@ export default function Main() {
   return (
     <main>
 
-     <Landing/>
+      <Landing />
 
 
       <div className="mainContent">
 
 
         <div className="flexInfoHolder">
+
           <div className="flexDataHolder">
             <h2 id="about" className="scrollspy">What we do <i className="fa fa-rocket"></i></h2>
             <p>
               Being unique in a crowd is no less than a dream right? Let's together fulfill it! Our artistic photographers are 24x7 ready to pour their magic on your photos and giving them a natural unique theme you wish for! Avail the fastest service online
             </p>
           </div>
+          <div className="flexImageHolder">
+            <img src="/images/refreshing.svg" alt="" />
+          </div>
         </div>
 
-        <div className="flexInfoHolder">
-          <div className="flexImageHolder">
-            <img src="/images/education.svg" alt="" />
-          </div>
+        <div className="NotflexInfoHolder">
+          {/* <div className="flexImageHolder">
+            <img src="/images/refreshing.svg" alt="" />
+          </div> */}
           <div className="flexDataHolder">
-            <h2 id="education" className="scrollspy">Education <i className="fa fa-graduation-cap"></i></h2>
-            <p>
-              I'm a College student with Maths (hons) as my major in the Dharmanagar Govt College. I've passed my High
-              School from Bir Bikram Institution on 2020. I've always been an ardent lover of Maths, Science and Tech.
-              Being highly obsessed with Coding and Tech, I've been coding for the last 3+ years on my own.
-            </p>
+            <h2 id="education" className="scrollspy">See our works <i className="fa fa-graduation-cap"></i></h2>
+            
           </div>
         </div>
 
@@ -38,9 +38,9 @@ export default function Main() {
 
 
         <div className="flexInfoHolder">
-          <div className="flexImageHolder">
+          {/* <div className="flexImageHolder">
             <img src="/images/worldathand.svg" alt="" />
-          </div>
+          </div> */}
 
           <div className="flexDataHolder">
             <h2 id="skills" className="scrollspy">Skills <i className="fa fa-paint-brush"></i></h2>
