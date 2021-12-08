@@ -13,7 +13,7 @@ export default function Main() {
 
         <div className="flexInfoHolder">
           <div className="flexDataHolder">
-            <h2 id="about" className="scrollspy">About ME <i className="far fa-grin-beam"></i></h2>
+            <h2 id="about" className="scrollspy">What we do <i className="fa fa-rocket"></i></h2>
             <p>
               Being unique in a crowd is no less than a dream right? Let's together fulfill it! Our artistic photographers are 24x7 ready to pour their magic on your photos and giving them a natural unique theme you wish for! Avail the fastest service online
             </p>

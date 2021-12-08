@@ -68,6 +68,8 @@ main {
         @include breakpoint-down(medium){
           height: 250px;
           width: 250px;
+
+          margin-top: 40px;
         }
         
         &::before {
