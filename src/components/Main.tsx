@@ -1,22 +1,11 @@
 import React from 'react'
+import Landing from './main/Landing'
 
 export default function Main() {
   return (
     <main>
 
-      <div className="landingSection">
-        <div className="landingImageHolder">
-          <div id="top" className="landingImage scrollspy"></div>
-        </div>
-
-        <div className="landingTextHolder">
-          <div className="hi">Hi, I'm</div>
-          <h1 className="landingMainText">
-            SatyamROY
-          </h1>
-          <div className="landingSubText">The Photographer</div>
-        </div>
-      </div>
+     <Landing/>
 
 
       <div className="mainContent">
@@ -26,11 +15,7 @@ export default function Main() {
           <div className="flexDataHolder">
             <h2 id="about" className="scrollspy">About ME <i className="far fa-grin-beam"></i></h2>
             <p>
-              Ahoy Stranger! Well what can I say? I'm a FrontEND Developer with 3+ years of solid experience in this
-              field. I am a technology enthusiast, designer, coder and nature lover, born at Kakrirpar, in Dharmanagar,
-              North Tripura, NorthEast India. I give more importance to be creative and unique. I have a strong interest
-              in the field of Maths. I like to know how different tech works. I'm a person who likes to constantly upgrade
-              myself and contribute to the tech industry.
+              Being unique in a crowd is no less than a dream right? Let's together fulfill it! Our artistic photographers are 24x7 ready to pour their magic on your photos and giving them a natural unique theme you wish for! Avail the fastest service online
             </p>
           </div>
         </div>
@@ -138,16 +123,13 @@ export default function Main() {
             <h2 id="contact" className="scrollspy">Contact <i className="fa fa-envelope"></i></h2>
             <div>
               <div>
-                <i className="fa fa-envelope"></i> SirMrinmoy@gmail.com
+                <i className="fa fa-envelope"></i> RoySatyamRoy22@gmail.com
               </div>
               <div>
-                <i className="fab fa-whatsapp"></i> WhatsAPP No. +91 7638934807
+                <i className="fab fa-whatsapp"></i> WhatsAPP +91 98620 95435
               </div>
               <div>
-                <i className="fa fa-phone fa-rotate-180"></i> Moblie No. +91 7638934807
-              </div>
-              <div>
-                <i className="fab fa-telegram"></i> Telegram No. +91 7638934807
+                <i className="fa fa-phone fa-rotate-180"></i> Moblie +91 98620 95435
               </div>
             </div>
           </div>

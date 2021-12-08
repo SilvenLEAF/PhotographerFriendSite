@@ -56,7 +56,8 @@ main {
         
         height: 300px;
         width: 300px;
-        border-radius: 50%;
+        // border-radius: 50%;
+        border-radius: 30%;
         // background: url("/images/landingImage.jpg") center/cover;
         
         border: 4px solid $bodyBG;
@@ -69,54 +70,81 @@ main {
           width: 250px;
         }
         
-        &::after {
+        &::before {
           display: block;
+          // display: none;
           content: "";
-          
-          position: absolute;
           z-index: -1;
           
+          position: absolute;
+          // top: 10px;
+          // left: 30px;
+
+          // clip-path: circle(50% at 100% 0%);
+          
           width: 100%;
-          height: 110%;
+          height: 100%;
+          // border-radius: 50%;
+          border-radius: 10%;
+          // transform: rotateZ(135deg) translate(-3%, 3%);
+          transform: rotateZ(135deg);
           
-          background-color: red;
-          box-shadow: 3px 3px 3px rgba($color: #000000, $alpha: 0.2),
-          3px -3px 3px rgba($color: #000000, $alpha: 0.3);
-          border-radius: 50%;
+
+
+
+
+          background-color: $bodyBG;
+          // background-color: red;
+          // box-shadow: 3px 3px 3px rgba($color: #000000, $alpha: 0.2),
+          // 3px -3px 3px rgba($color: #000000, $alpha: 0.3);
+
+          box-shadow: 0 0.125rem 0.25rem rgba(131, 83, 83, 0.3),
+                0 -0.125rem 0.25rem rgba(131, 83, 83, 0.3);
+  
           
-          transform: rotateZ(135deg) translate(-3%, 3%);
           
           transition: all 300ms ease-in-out;
         }      
        
   
-        &::before {
+        &::after {
           display: block;
           content: "";
           
           position: absolute;
+          // left: -20px;
+          // top: -15px;
           z-index: -1;
+
+          // transform: rotateZ(90deg);
           
           width: 100%;
-          height: 110%;
+          height: 100%;
+          border-radius: 30%;
+          
   
-          background-color: #fff;
-          box-shadow: -3px -3px 3px rgba($color: #000000, $alpha: 0.2),
-          3px 3px 3px rgba($color: #000000, $alpha: 0.3);
-          border-radius: 50%;
+          background-color: $bodyBG;
+          // background-color: red;
+          // box-shadow: -3px -3px 3px rgba($color: #000000, $alpha: 0.2),
+          // 3px 3px 3px rgba($color: #000000, $alpha: 0.3);
   
-          transform: rotateZ(-135deg) translate(3%, 3%);
+          box-shadow: 0 0.125rem 0.25rem rgba(131, 83, 83, 0.3),
+                0 -0.125rem 0.25rem rgba(131, 83, 83, 0.3);
+  
+
+          // transform: rotateZ(-135deg) translateX(5%) translateY(5%);
+          transform: rotateZ(-135deg);
           transition: all 300ms ease-in-out;
         }      
   
         
 
-        &:hover::before {
-          background-color: red;
-        }
-        &:hover::after {
-          background-color: #fff;
-        }
+        // &:hover::before {
+        //   background-color: red;
+        // }
+        // &:hover::after {
+        //   background-color: #fff;
+        // }
         
       }
     
