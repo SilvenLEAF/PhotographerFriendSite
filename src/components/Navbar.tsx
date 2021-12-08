@@ -53,9 +53,10 @@ export default function Navbar() {
           <li><a className="sidenavClose" href="#about"><i className="fa fa-info-circle"></i> About</a></li>
           <li><a className="sidenavClose" href="#contact"><i className="fa fa-envelope"></i> Contact</a></li>
           <li>
-            <a href="#"><i className="fab fa-github"></i></a>
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-linkedin"></i></a>
+            <a href="#"><i className="fab fa-whatsapp"></i></a>
+            <a href="#"><i className="fab fa-facebook"></i></a>
+            {/* <a href="mailto:RoySatyamRoy22@gmail.com?subject=Contact&body=Hi Satyam"><i className="fab fa-google"></i></a> */}
+            <a href="#"><i className="fab fa-google"></i></a>
           </li>
         </div>
       </nav>

@@ -123,8 +123,8 @@ header {
   background-color: #fff;
   width: 250px;
   user-select: none;
-
-
+  
+  
   div {
     display: flex;
     flex-flow: column;    
@@ -132,6 +132,17 @@ header {
     width: 100%;
     overflow-x: hidden;
   
+    
+    &::after {
+      content: "";
+      display: block;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(100,0,0,0.05);
+      position: absolute;
+      z-index: -1;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 80%, 0% 50%);
+    }
     
     
     li:not(:last-child) {
