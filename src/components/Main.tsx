@@ -30,7 +30,7 @@ export default function Main() {
           </div> */}
           <div className="flexDataHolder">
             <h2 id="works" className="scrollspy">See our works <i className="fa fa-graduation-cap"></i></h2>
-            <p>Check our some of our wonderful works. We freeze the moments </p>
+            <p>Check some of our wonderful works. We freeze the moments </p>
             <div className="showcaseImagesHolder wrap">
               {
                 [0, 1, 2, 3, 4, 5, 6, 7].map((item, index) => {
