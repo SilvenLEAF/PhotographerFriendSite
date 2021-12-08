@@ -40,23 +40,17 @@ export default function Navbar() {
         <div className="brandLogo"><a href="#top" className="logo">SatyamROY</a></div>
 
         <ul className="PCNav hideOnMobile">
+          <li><a href="#whatWeDo">What we do?</a></li>
+          <li><a href="#works">Works</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#hobbies">Hobbies</a></li>
-          <li><a href="#maths">Maths</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </header>
       <nav className="mobileNav hideOnPC">
         <div>
-          <li><a className="sidenavClose" href="#about"><i className="far fa-grin-beam"></i> About</a></li>
-          <li><a className="sidenavClose" href="#education"><i className="fa fa-graduation-cap"></i> Education</a></li>
-          <li><a className="sidenavClose" href="#skills"><i className="fa fa-paint-brush"></i> Skills</a></li>
-          <li><a className="sidenavClose" href="#projects"><i className="fab fa-git-alt"></i> Projects</a></li>
-          <li><a className="sidenavClose" href="#hobbies"><i className="fa fa-magic"></i> Hobbies</a></li>
-          <li><a className="sidenavClose" href="#maths"><i className="fa fa-cubes"></i> Maths</a></li>
+          <li><a className="sidenavClose" href="#whatWeDo"><i className="fa fa-rocket"></i> What we do?</a></li>
+          <li><a className="sidenavClose" href="#works"><i className="fa fa-graduation-cap"></i> Works</a></li>
+          <li><a className="sidenavClose" href="#about"><i className="fa fa-info-circle"></i> About</a></li>
           <li><a className="sidenavClose" href="#contact"><i className="fa fa-envelope"></i> Contact</a></li>
           <li>
             <a href="#"><i className="fab fa-github"></i></a>

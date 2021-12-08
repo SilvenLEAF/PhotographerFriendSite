@@ -132,6 +132,8 @@ header {
     width: 100%;
     overflow-x: hidden;
   
+    
+    
     li:not(:last-child) {
       margin: 5px 0px;      
       font-weight: 500;
@@ -156,6 +158,10 @@ header {
       }
       
     }
+
+    li:first-child {
+      margin-top: 100px;
+      };
     
     li:last-child {        
       margin: auto 0px 30px 0px;    
